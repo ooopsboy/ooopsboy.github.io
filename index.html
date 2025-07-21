@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <title>Портфолио — [Твоё имя]</title>
   <style>
-    body { background-color: #FFEBD3; font-family: sans-serif; max-width: 800px; margin: 2em auto; padding: 0 1em; }
+    @font-face {
+  font-family: 'MyFont';
+  src: url('ofont.ru_RAZMAHONT.ttf') format('ttf');
+  /* или .ttf — зависит от формата */
+}
+    body { background-color: #FFEBD3; font-family: 'MyFont'; max-width: 800px; margin: 2em auto; padding: 0 1em; }
     h1, h2 { color: #222; }
     .project { margin-bottom: 2em; border-bottom: 1px solid #eee; padding-bottom: 1em; }
     a { color: #007acc; text-decoration: none; }
